@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "fb29b822-10c7-4aa6-a33b-997eec9f5710",
+		"name": "Logkar-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Soal2",
+			"item": [
+				{
+					"name": "Silinder",
+					"item": [
+						{
+							"name": "Soal2 Luas silinder",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"jariJari\": 10.1,\r\n    \"tinggi\":15.7\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/silinder/area",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"silinder",
+										"area"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Keliling Silinder",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"jariJari\": 2.355,\r\n    \"tinggi\":3.5\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/silinder/keliling",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"silinder",
+										"keliling"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Volume Silinder",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"jariJari\": 7,\r\n    \"tinggi\":28\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/silinder/volume",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"silinder",
+										"volume"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Balok",
+					"item": [
+						{
+							"name": "Soal 2 Luas Balok",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"panjang\": 10,\r\n    \"lebar\":12,\r\n    \"tinggi\":6\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/balok/area",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"balok",
+										"area"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Keliling Balok",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \"panjang\": 30,\r\n    \"lebar\":15,\r\n    \"tinggi\":8\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/balok/keliling",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"balok",
+										"keliling"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Volume Balok",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"panjang\": 10,\r\n    \"lebar\":12,\r\n    \"tinggi\":6\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/balok/volume",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"balok",
+										"volume"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Kubus",
+					"item": [
+						{
+							"name": "Luas Kubus",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"sisi\" : 20\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/cube/area",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"cube",
+										"area"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Keliling Kubus",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"sisi\":3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/cube/keliling",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"cube",
+										"keliling"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Volume Kubus",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"sisi\" : 20\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/v1/logkar/count/cube/volume",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"logkar",
+										"count",
+										"cube",
+										"volume"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Soal1",
+			"item": [
+				{
+					"name": "Soal1 NIK Validation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nik\":\"1234123412341243\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/v1/logkar/validation/nik",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"logkar",
+								"validation",
+								"nik"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Soal3",
+			"item": [
+				{
+					"name": "Get Movie (HTTP Client)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/v1/logkar/get/movies/omdb?page=1&keyword=Batman",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"logkar",
+								"get",
+								"movies",
+								"omdb"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "keyword",
+									"value": "Batman"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
