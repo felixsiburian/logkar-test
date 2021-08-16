@@ -20,7 +20,7 @@ func Start() {
 	e := echo.New()
 
 	soal1Case := usecase.NewSoal1Usecase()
-	soal2Case := usecase.NewSoal2Case()
+	soal2Case := usecase.NewSoal2Usecase()
 	soal3Case := usecase.NewSoal3Usecase()
 
 	router.NewRouter(e, soal1Case, soal2Case, soal3Case)

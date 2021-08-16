@@ -11,7 +11,7 @@ import (
 type soal2Usecase struct {
 }
 
-func NewSoal2Case() service.ISoal2Usecase {
+func NewSoal2Usecase() service.ISoal2Usecase {
 	return soal2Usecase{}
 }
 
